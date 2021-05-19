@@ -1,4 +1,4 @@
-module.exports = class Component {
+class Component {
   constructor(props) {
     this.props = props;
   }
@@ -6,3 +6,5 @@ module.exports = class Component {
     return this.props;
   }
 };
+
+export default Component;
